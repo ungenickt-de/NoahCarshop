@@ -1,12 +1,5 @@
 
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8 */;
-/*!50503 SET NAMES utf8mb4 */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
-
-
 CREATE TABLE IF NOT EXISTS `noah_carshop` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `car` varchar(250) NOT NULL,
@@ -24,11 +17,3 @@ INSERT INTO `noah_carshop` (`id`, `car`, `genre`, `label`, `price`, `img`) VALUE
 (1, 'adder', 'car', 'Adder', 500000, 'https://i.imgur.com/azOor2s.png'),
 (2, 'mule', 'truck', 'Mule', 55000, 'https://wiki.rage.mp/images/e/e7/Mule.png'),
 (3, 'bati', 'bike', 'Bati', 10000, 'https://i.imgur.com/hXJJL7c.png');
-
-
-/*!40000 ALTER TABLE `noah_carshop` DISABLE KEYS */;
-/*!40000 ALTER TABLE `noah_carshop` ENABLE KEYS */;
-
-/*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
